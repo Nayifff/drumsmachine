@@ -1,0 +1,86 @@
+* {
+    background-color: #d7debe;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+#drum-machine {
+  background-color: #f4cf91;
+}
+#display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+    margin-bottom: 0;
+    padding: 0.1vh;
+    margin: 5vw 30vw 1vw 30vw;
+    border: 2px solid black;
+
+}
+
+#drum-pads {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+    padding-bottom: 0;
+  padding-top: 0;
+}
+
+.drum-pad {
+  border: 2px solid black;
+  height: 10vw;
+  width: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5vw;
+    margin-left: 0.5vw;
+  background-color: #f4d057;
+}
+
+.volume-slider { 
+    justify-content: center;
+      align-items: center;
+    padding-top: 0;
+    margin: -1vw;
+    display: flex;
+}
+
+h1 { 
+      background-color: #f4d057;
+
+}
